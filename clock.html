@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+   	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/ >
+   	<title>指针时钟</title>
+   	<style type="text/css">
+   	 *{padding:0px; margin:0px; font:14px normal "microsoft yahei";}
+      div{position: relative;}
+      #date{position: absolute;top:49%;left:55%; width:8%;background: #E2F17C;font-size:1%; color:red;}
+   	 /*div{width: 100%;height: 100%;margin-top:1%;}*/
+   	 /*canvas{position: absolute;}*/
+   	 /*#clock2{position:absolute;top:0;left:10%;}*/
+   	</style>
+  <script type="text/javascript" src="clock.js" ></script>
+</head>
+<body style="width: 100%;height:100% " >
+<div>
+  <canvas id="clock"  style="border:1px dashed #BFB4B4; width: 80%; height:80%; margin: 1% 10%;">您的浏览器不支持canvas</canvas>
+  <!-- <canvas id="clock2"  style="border:1px solid #BFB4B4; width: 80%;  ">您的浏览器不支持canvas</canvas> -->
+  <audio src="tick.mp3" preload="preload" ></audio>
+  <input type="text" id="date"/>
+</div>
+</body>
+</html>
